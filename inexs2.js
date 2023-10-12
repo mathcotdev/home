@@ -316,7 +316,7 @@ let inexaff = document.getElementById("inex2").innerHTML = equation
 console.log(afDelta)
 if (Delta > 0) {
     let suit = document.createElement("p")
-    suit.innerHTML = "<br><br>Dans notre cas vous l'avait deviner il s'agit de la première possibilité car Deltat est supérieur à 0<br>Donc on va chercher d'abord la racine carrée de Delta comme Delta est égal à " + Delta + " Sa racine carrée est "+ racDelta  + "<br>Comme on a déjà la racine carrée on peut maintenant chercher X<sub>1</sub> et X<sub>2</sub><sub><br> X<sub>1</sub> = (-(b)+racine carrée de Delta)/(2 X a) =  (-(" + b + ") + " + racDelta + ")/ (2 X "+ a + ") = "+ ((-b) + (new Number(racDelta))) + "/"+ (2*a) + " = "+ X1 + "<br> X<sub>2</sub> = (-(b)-racine carrée de Delta)/(2 X a) =  (-(" + b + ") - " + racDelta + ")/ (2 X "+ a + ") = "+ ((-b) - racDelta) + "/"+ (2*a) + " = "+ X2 +"<br>"+ explik
+    suit.innerHTML = "<br><br>Dans notre cas vous l'avait deviner il s'agit de la première possibilité car Deltat est supérieur à 0<br>Donc on va chercher d'abord la racine carrée de Delta comme Delta est égal à " + Delta + " Sa racine carrée est "+ racDelta  + "<br>Comme on a déjà la racine carrée on peut maintenant chercher X<sub>1</sub> et X<sub>2</sub><sub><br> X<sub>1</sub> = (-(b)+racine carrée de Delta)/(2 * a) =  (-(" + b + ") + " + racDelta + ")/ (2 * "+ a + ") = "+ ((-b) + (new Number(racDelta))) + "/"+ (2*a) + " = "+ X1 + "<br> X<sub>2</sub> = (-(b)-racine carrée de Delta)/(2 * a) =  (-(" + b + ") - " + racDelta + ")/ (2 * "+ a + ") = "+ ((-b) - racDelta) + "/"+ (2*a) + " = "+ X2 +"<br>"+ explik
     let aff = document.getElementById("resolutioninexs2").innerHTML = afDelta.innerHTML + suit.innerHTML
     if((a+b+c)== 0)
 {
@@ -338,7 +338,7 @@ else if (Delta < 0) {
 }
 else {
     let suit = document.createElement("p")
-    suit.innerHTML = "<br><br>Dans notre cas vous l'avait deviner il s'agit de la deuxième possibilité car Deltat est égale à 0<br>Comme delta est égal à 0 on va cherche directement X comme il est explique ci-dessus<br>avec<br> X = -(b) / (2 X a) <br> = -("+ b +")/" + " (2 X "+ a +") = " + (-( b)) + " / "+ (2*a) + " = " + X1 + "<br>"+explik
+    suit.innerHTML = "<br><br>Dans notre cas vous l'avait deviner il s'agit de la deuxième possibilité car Deltat est égale à 0<br>Comme delta est égal à 0 on va cherche directement X comme il est explique ci-dessus<br>avec<br> X = -(b) / (2 * a) <br> = -("+ b +")/" + " (2 * "+ a +") = " + (-( b)) + " / "+ (2*a) + " = " + X1 + "<br>"+explik
     let aff = document.getElementById("resolutioninexs2").innerHTML = afDelta.innerHTML + suit.innerHTML
     if((a+b+c)== 0)
 {
