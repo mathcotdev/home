@@ -44,10 +44,10 @@ else if ((b-c) == 0) {
     let d = c - b
     let res = decimal((d/a))
     if (b < 0) {
-        let aff = document.getElementById("resolutionex1").innerHTML = "Votre équation " + a + "x " + b + " = " + c + " a comme solution x = " + res + "<br><br><b class='ble'>CALCUL</b>" + "<br><br>" + a + "x" + b + " = " + c + "<br> =>" + a + "x = " + c + "+" + (-b) + "<br> ici on voit que b change de signe comme on le dit changement de membre changent de signe <br>=> "+ a + "x = "+ d + "<br>=>" + "x = "+ d +"/"+ a + "<br> Qui nous donne x = "+ res + "<br>La reponse est 0" + "<br><br><b>NB</b>:Toute équation de forme ax+b=c si c - b = 0 alors l'ensemble solution sera égale à 0<br>En plus cela si a = 0 et (c-b) = 0 Alors l'équation sera directement dit indetermine car dans R 0/0 est une forme indeterminer "
+        let aff = document.getElementById("resolutionex1").innerHTML = "Votre équation " + a + "x " + b + " = " + c + " a comme solution x = " + res + "<br><br><b class='ble'>CALCUL</b>" + "<br><br>" + a + "x" + b + " = " + c + "<br> =>" + a + "x = " + c + "+" + (-b) + "<br> ici on voit que b change de signe comme on le dit ' qui change de membre change aussi de signe' <br>=> "+ a + "x = "+ d + "<br>=>" + "x = "+ d +"/"+ a + "<br> Qui nous donne x = "+ res + "<br>La reponse est 0" + "<br><br><b>NB</b>:Toute équation de forme ax+b=c si c - b = 0 alors l'ensemble solution sera égale à 0<br>En plus cela si a = 0 et (c-b) = 0 Alors l'équation sera directement dit indetermine car dans R 0/0 est une forme indeterminer "
     }
     else {
-        let aff = document.getElementById("resolutionex1").innerHTML = "Votre équation " + a + "x +" + b + " = " + c + " a comme solution x = " + res + "<br><br><b class='ble'>CALCUL</b>" + "<br><br>" + a + "x + " + b + " = " + c + "<br> =>" + a + "x = " + c + "" + (-b) + "<br> ici on voit que b change de signe comme on le dit changement de membre changent de signe <br>=> "+ a + "x = "+ d + "<br>=>" + "x = "+ d +"/"+ a + "<br> Qui nous donne x = "+ res + "<br>La reponse est 0" + "<br><br><b>NB</b>: Toute équation de forme ax+b=c si c - b = 0 alors l'ensemble solution sera égale à 0<br>En plus cela si a = 0 et (c-b) = 0 Alors l'équation sera directement dit indetermine car dans R 0/0 est une forme indeterminer"
+        let aff = document.getElementById("resolutionex1").innerHTML = "Votre équation " + a + "x +" + b + " = " + c + " a comme solution x = " + res + "<br><br><b class='ble'>CALCUL</b>" + "<br><br>" + a + "x + " + b + " = " + c + "<br> =>" + a + "x = " + c + "" + (-b) + "<br> ici on voit que b change de signe comme on le dit ' qui change de membre change aussi de signe' <br>=> "+ a + "x = "+ d + "<br>=>" + "x = "+ d +"/"+ a + "<br> Qui nous donne x = "+ res + "<br>La reponse est 0" + "<br><br><b>NB</b>: Toute équation de forme ax+b=c si c - b = 0 alors l'ensemble solution sera égale à 0<br>En plus cela si a = 0 et (c-b) = 0 Alors l'équation sera directement dit indetermine car dans R 0/0 est une forme indeterminer"
     }
 }
 else 
@@ -55,9 +55,9 @@ else
     let d = c - b
     let res = decimal((d/a))
     if (b < 0) {
-        let aff = document.getElementById("resolutionex1").innerHTML = "Votre équation " + a + "x " + b + " = " + c + " a comme solution x = " + res + "<br><br><b class='ble'>CALCUL</b>" + "<br><br>" + a + "x" + b + " = " + c + "<br> =>" + a + "x = " + c + "+" + (-b) + "<br> ici on voit que b change de signe comme on le dit changement de membre changent de signe <br>=> "+ a + "x = "+ d + "<br>=>" + "x = "+ d +"/"+ a + "<br> Qui nous donne x = "+ res
+        let aff = document.getElementById("resolutionex1").innerHTML = "Votre équation " + a + "x " + b + " = " + c + " a comme solution x = " + res + "<br><br><b class='ble'>CALCUL</b>" + "<br><br>" + a + "x" + b + " = " + c + "<br> =>" + a + "x = " + c + "+" + (-b) + "<br> ici on voit que b change de signe comme on le dit 'qui change de membre change aussi de signe' <br>=> "+ a + "x = "+ d + "<br>=>" + "x = "+ d +"/"+ a + "<br> Qui nous donne x = "+ res
     }
     else {
-        let aff = document.getElementById("resolutionex1").innerHTML = "Votre équation " + a + "x +" + b + " = " + c + " a comme solution x = " + res + "<br><br><b class='ble'>CALCUL</b>" + "<br><br>" + a + "x + " + b + " = " + c + "<br> =>" + a + "x = " + c + "" + (-b) + "<br> ici on voit que b change de signe comme on le dit changement de membre changent de signe <br>=> "+ a + "x = "+ d + "<br>=>" + "x = "+ d +"/"+ a + "<br> Qui nous donne x = "+ res
+        let aff = document.getElementById("resolutionex1").innerHTML = "Votre équation " + a + "x +" + b + " = " + c + " a comme solution x = " + res + "<br><br><b class='ble'>CALCUL</b>" + "<br><br>" + a + "x + " + b + " = " + c + "<br> =>" + a + "x = " + c + "" + (-b) + "<br> ici on voit que b change de signe comme on le dit 'qui change de membre change aussi de signe' <br>=> "+ a + "x = "+ d + "<br>=>" + "x = "+ d +"/"+ a + "<br> Qui nous donne x = "+ res
     }
 }
