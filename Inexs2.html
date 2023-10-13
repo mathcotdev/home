@@ -3,14 +3,15 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
     <title>Inéquation du second  degré</title>
 </head>
 <body>
-    <header>
+    <header class="bg-info text-center p-3">
         <h2 class="titre"><b>Inéquation du second degré</b></h2>
     </header>
     <section class="secex1">
-        <div>
+        <div class="bg-secondary p-3 text-center">
             <p>
                 Pour travailler votre inéquation vous allez devoir completer un formulaire avec les données de votre inéquation 
                 <br>Nous savons qu'une inéquation du second degré est de forme: <br>ax<sup>2</sup> + bx 
@@ -25,18 +26,18 @@
 
             </p>
         </div>
-        <div>
+        <div class="bg-white p-3 ">
             <fieldset class="filex1">
                 <legend><b>Les Données de l'inéquation</b></legend>
                 <form action="reinexs2.html" id="donneesex1" class="filsetinex1" onsubmit="inequation2()">
-                    <label for="x">valeur de A:    </label><input type="number" id="ax" name="x" class="back" required step="any"><br><label for="b">Valeur de B: </label><input type="number" id="b" name="bn" required class="back" step="any"><br><label for="c">Valeur de C:</label><input type="number" id="c" name="c" required class="back" step="any"><br>
+                    <label for="x">valeur de A:    </label><input type="number" id="ax" name="x" class="bg-info" required step="any"><br><label for="b">Valeur de B: </label><input type="number" id="b" name="bn" required class="bg-info" step="any"><br><label for="c">Valeur de C:</label><input type="number" id="c" name="c" required class="bg-info" step="any"><br>
                     <label for="">L'opérateur de comparaison</label><br>
                     <input type="radio" value="s" name="signe" id="sg0" required >Supérieur(>) <br><input type="radio" value="i" name="signe" id="sg1" required>inférieur(<) <br><input type="radio" value="se" name="signe" id="sg2" required>supérieur ou égale(≥)<br><input type="radio" value="ie" name="signe" id="sg3" required>inférieur ou égale(≤)<br>
-                    <button type="submit" class="back">CALCULER</button>
+                    <button type="submit" class="btn btn-primary">CALCULER</button>
                 </form>
             </fieldset>
             <p><br></p>
-            <a id="Retour"href="index.html">Retour à L'accueil</a>
+            <a class="btn btn-primary" href="index.html">Retour à L'accueil</a>
         </div>
     </section>
     <footer class="fot">

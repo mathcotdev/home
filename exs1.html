@@ -3,14 +3,15 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
     <title>Equation du premier degre</title>
 </head>
 <body>
-    <header>
+    <header class="bg-info p-3 text-center">
         <h2 class="titre"><b>Equation du premier degré</b></h2>
     </header>
     <section class="secex1">
-        <div>
+        <div class="bg-secondary p-3 text-center">
             <p>
                 Pour travailler votre équation vous allez devoir completer un formulaire avec les données de votre équation 
                 Nous savons qu'une équation du premier degré est de forme ax + b = c avec c qui est souvent égal 0 donc pour calculer 
@@ -19,16 +20,16 @@
                 <br><b class="jaune ">NB : Si vous avez une fraction dans votre équation il faudra seulement la diviser puis completer le quotient dans la case correspondente(exemple pour 1/3 on completera 0,3333...)</b> 
             </p>
         </div>
-        <div>
+        <div class="bg-white p-3">
             <fieldset class="filex1">
                 <legend><b>Les Données de l'équation</b></legend>
                 <form action="resex1.html" id="donneesex1" onsubmit="equation1()">
-                    <label for="x">valeur de A:    </label><input type="number" id="ax" name="x" class="back" required step="any"><br><label for="b">Valeur de B: </label><input type="number" id="b" name="bn" required class="back" step="any"><br><label for="c">Valeur de C:</label><input type="number" id="c" name="c" required class="back" step="any"><br>
-                    <button type="submit" class="back">CALCULER</button>
+                    <label for="x">valeur de A:    </label><input type="number" id="ax" name="x" class="bg-info" required step="any"><br><label for="b">Valeur de B: </label><input type="number" id="b" name="bn" required class="bg-info" step="any"><br><label for="c">Valeur de C:</label><input type="number" id="c" name="c" required class="bg-info" step="any"><br>
+                    <button type="submit" class="btn btn-primary">CALCULER</button>
                 </form>
             </fieldset>
             <p><br></p>
-            <a id="Retour"href="index.html">Retour à L'accueil</a>
+            <a class="btn btn-primary" href="index.html">Retour à L'accueil</a>
         </div>
     </section>
     <footer class="fot">

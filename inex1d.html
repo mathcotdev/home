@@ -3,14 +3,15 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
     <title>Equation du premier degre</title>
 </head>
-<body>
-    <header>
+<body class="bg-dark">
+    <header class=" border text-center bg-info text-white p-3">
         <h2 class="titre"><b>Inéquation du premier degré</b></h2>
     </header>
-    <section class="secex1">
-        <div>
+    <section>
+        <div class="secex1  bg-secondary text-center p-3">
             <p>
                 Pour travailler votre inéquation vous allez devoir completer un formulaire avec les données de votre inéquation 
                 <br>Nous savons qu'une inéquation du premier degré est de forme: <br>ax + b >(ou <,≥,≤) c <b>avec a different de 0 car si a est égal à 0 alors ce n'est qu'une comparaison simple de b et c par exemple 0x + b > c 
@@ -23,18 +24,18 @@
 
             </p>
         </div>
-        <div>
-            <fieldset class="filex1">
+        <div class="border bg-white p-3">
+            <fieldset class="filex1 ">
                 <legend><b>Les Données de l'inéquation</b></legend>
                 <form action="resinex1d.html" id="donneesex1" class="filsetinex1" onsubmit="inequation1()">
-                    <label for="x">valeur de A:    </label><input type="number" id="ax" name="x" class="back" required step="any"><br><label for="b">Valeur de B: </label><input type="number" id="b" name="bn" required class="back" step="any"><br><label for="c">Valeur de C:</label><input type="number" id="c" name="c" required class="back" step="any"><br>
+                    <label for="x">valeur de A:    </label><input type="number" id="ax" name="x" class="bg-info" required step="any"><br><label for="b">Valeur de B: </label><input type="number" id="b" name="bn" required class="bg-info" step="any"><br><label for="c">Valeur de C:</label><input type="number" id="c" name="c" class="bg-info" step="any"><br>
                     <label for="">L'opérateur de comparaison</label><br>
                     <input type="radio" value="s" name="signe" id="sg0" required >Supérieur(>) <br><input type="radio" value="i" name="signe" id="sg1" required>inférieur(<) <br><input type="radio" value="se" name="signe" id="sg2" required>supérieur ou égale(≥)<br><input type="radio" value="ie" name="signe" id="sg3" required>inférieur ou égale(≤)<br>
-                    <button type="submit" class="back">CALCULER</button>
+                    <button type="submit" class="btn btn-primary">CALCULER</button>
                 </form>
             </fieldset>
             <p><br></p>
-            <a id="Retour" href="index.html">Retour à L'accueil</a>
+            <a  href="index.html" class="btn btn-primary">Retour à L'accueil</a>
         </div>
     </section>
     <footer class="fot">
