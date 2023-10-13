@@ -93,7 +93,6 @@ body
     grid-area: corp;
     padding-left: 15px;
     font-size: 20px;
-    font-family:'Times New Roman', Times, serif;
 }
 .as
 {
@@ -120,5 +119,48 @@ body
     grid-template-rows: auto;
     text-align: center;
     margin: auto;
+}
+@media(max-width:1200px)
+{
+    .bodyind
+    {
+        grid-template-columns: 1fr;
+        grid-template-areas:  "tete"
+                              "corp"
+                              "cot"
+                              "pied";
+        
+        font-size: 50px;
+        
+                            
+    }
+    footer
+    {
+        font-size: 15px;
+        color: black;
+    }
+    section
+    {
+        font-size: 70px;
+    }
+    .sec,.secex1,.secexs2
+    {
+        grid-area: corp;
+        font-size: 50px;
+    }
+    .titre,.grand
+    {
+        font-size: 70px;
+    }
+    input
+    {
+        width: 250px;
+    }
+    .btn
+    {
+        width: 250px;
+    }
+
+    
 }
 
