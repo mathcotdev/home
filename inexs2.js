@@ -358,6 +358,6 @@ if(a == 0)
     a = 4
     document.getElementById("sect").remove()
     const imposible = document.createElement("h1")
-    affimpo = imposible.innerHTML = "<b class='jaune'>Votre inéquation ne pas du second degré mais plutôt du premier degré de forme "+b + "x "+ afc+" "+ signed+" 0 Car a = 0 <br>consultez le deuxième point du menu pour la resolution et l'explication de cette forme<b/>"
+    affimpo = imposible.innerHTML = "<b class='jaune'>Votre inéquation n'est pas du second degré mais plutôt du premier degré de forme "+b + "x "+ afc+" "+ signed+" 0 Car a = 0 <br>consultez le deuxième point du menu pour la resolution et l'explication de cette forme<b/>"
     document.getElementById("t").insertAdjacentHTML("beforeend", affimpo)
 }
