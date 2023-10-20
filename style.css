@@ -8,7 +8,7 @@
 .taille
 {
     border-right: groove black 5px;
-    font-size: 15px;
+    font-size: 40px;
 }
 .centrer,#gauche,#droite,#Milieu
 {
@@ -20,7 +20,7 @@
 }
 .jaune
 {
-    background-color: rgb(19, 153, 173);;
+    background-color: rgb(19, 153, 173);
 }
 #etude,#M,#gauche,#droite
 {
@@ -28,7 +28,7 @@
 }
 #th1,#inex
 {
-    border-right: 4px rgb(9, 9, 9) groove;
+    border-right: 10px rgb(9, 9, 9) groove;
 }
 table
 {
@@ -36,9 +36,9 @@ table
     border-collapse: collapse;
     text-align: center;
 }
-th
+.lin
 {
-    border-bottom: 4px rgb(9, 9, 9) groove;
+    border-bottom: 10px rgb(9, 9, 9) ridge;
     padding-bottom: 0px;
 }
 
@@ -53,20 +53,12 @@ th
     padding-left: 15px;
     font-size: 20px;  
 }
-.bodyind
-{
-    display: grid;
-    grid-template-columns: auto minmax(10%, 70%);
-    grid-template-areas:  "tete tete"
-                          "corp cot"
-                          "pied pied";
-}
+
 table
 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 19px;
-    width: 600px;
-    padding-top: 50px;
+    width: 800px;
     margin: auto;
 }
 
@@ -112,6 +104,10 @@ body
     flex-wrap: nowrap;
     
 }
+.accueil
+{
+    font-size: 30px;
+}
 
 .contacts
 {
@@ -122,18 +118,7 @@ body
 }
 @media(max-width:1200px)
 {
-    .bodyind
-    {
-        grid-template-columns: 1fr;
-        grid-template-areas:  "tete"
-                              "corp"
-                              "cot"
-                              "pied";
-        
-        font-size: 50px;
-        
-                            
-    }
+
     footer
     {
         font-size: 15px;
@@ -141,25 +126,52 @@ body
     }
     section
     {
-        font-size: 70px;
+        font-size: 50px;
+        padding: 2px;
     }
     .sec,.secex1,.secexs2
     {
         grid-area: corp;
         font-size: 50px;
+        padding: 2px;
     }
     .titre,.grand
     {
-        font-size: 70px;
+        font-size: 50px;
     }
-    input
+    input[type = "number"]
     {
         width: 250px;
     }
-    .btn
+    #bn
     {
-        width: 250px;
-        height: 60px;
+        font-size: 50px;
+        border-width: 10px;
+        width: 500px;
+        font-weight: bold;
+    }
+    .leg
+    {
+        font-size: 50px;
+    }
+    li
+    {
+        font-size: 50px;
+    }
+    .accueil
+    {
+        
+        font-size: 25px;
+        
+                            
+    }
+    input[type = "radio"] + label { border: rgb(8, 8, 8) 5px groove;  width: 600px; }
+    input[type = "radio"]:checked + label { background-color: rgb(19, 153, 173); border: rgb(19, 153, 173) 10px groove; }
+    table
+    {
+        width: 100%;
+        height: 200px;
+        font-size: 40px;
     }
 
     

@@ -1,57 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CORRIGE TES DEVOIRS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
 </head>
-<body class="bodyind">
-    <header class="hd1 container-fluid border bg-primary">
-        <h1 class="titre">Bienvenu sur Corrige Tes Devoirs avec Alfred mus</h1>
-    </header>
-    <section class="sec container-fluid border  bg-secondary p-4">
-        <p>Si tu as un probleme avec les bases des mathématiques tu es au bon endroit</h2>
-        <p>Notre site a pour but de travailler pour vous quelques problèmes en math et vous les expliquer pour ne plus avoir des problèmes avec ce dernier
-        </p>
-        <p>Pour qu'on puisse bien travailler il faudra à chaque fois respecter les instruction qui vous seront données
-            tout au long de votre navigation sur le site
-        </p>
-        <p>Tous nos sujet disponible pour le moment sont dans le menu alors vous pouvez choisir ce qui vous interesse</p>
-    </section >
-    <aside class="as bg-white">
-        <menu class="flexi">
-            <header>
-                <h2 class="grand">Le Menu</h2>
-            </header>
-            <ul>
-                <li>
-                    <a href="exs1.html">Equation du premier degré</a>
-                </li>
-                <li>
-                    <a href="inex1d.html">Inéquation du premier degré</a>
-                </li>
-                <li>
-                    <a href="exs2.html">Equation du second degré</a>
-                </li>
-                <li>
-                    <a href="Inexs2.html">Inéquation du second degré</a>
-                </li>
+<body>
+    <nav class="navbar navbar-expand-lg  bg-dark " id="menu">
+        <div class="container-fluid">
+          <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <b class="text-light accueil">MENU</b>
+          </button>
+          <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white accueil" aria-current="page" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle text-white accueil" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Les Sujet
+                </a>
+                <ul class="dropdown-menu bg-primary" >
+                  <li><a class="dropdown-item accueil" href="exs1.html" >Equation du premier degré</a></li>
+                  <li><a class="dropdown-item accueil" href="inex1d.html">Inéquation du premier degré</a></li>
+                  <li><a class="dropdown-item accueil" href="exs2.html">Equation du second degré</a></li>
+                  <li><a class="dropdown-item accueil" href="Inexs2.html">Inéquation du premier degré</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle text-white accueil" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contact
+                  </a>
+                  <ul class="dropdown-menu " id="sujet">
+                    <li><a class="dropdown-item" href="https://www.instagram.com/alfredmushagalusam"><img src="instagram.png" alt="" height="60px"></a></li>
+                    <li><a class="dropdown-item" href="mailto:fna.dev.app@gmail.com"><img src="gmail.png" alt="" height="60px"></a></li>
+                    <li><a class="dropdown-item" href="https://www.twitter.com/alfred_mus_FCB"><img src="twitter.png" alt="" height="60px"></a></li>
+                  </ul>
+              </li>
             </ul>
-            <header>
-                <h2 class="grand">Contacts</h2>
-            </header>
-            <div class="Contacts">
-                <a href="mailto:fna.dev.app@gmail.com"><img src="gmail.png" alt="" height="60px"></a>
-                <a href="https://www.instagram.com/alfredmushagalusam"><img src="instagram.png" alt="" height="60px"></a>
-                <a href="https://www.twitter.com/alfred_mus_FCB"><img src="twitter.png" alt="" height="60px"></a>
-            </div>
-        </menu>
-    </aside>
-    <footer class="fot text-primary">
-        <p class="foote">copyright &copy 2023 - Alfred mus</p>
-    </footer>
-    <script src="jquery-3.4.1.min.js"></script>
-    <script src="bootstrap.js"></script>
+          </div>
+        </div>
+      </nav>
+      <div class="container " >
+        <header class="container border bg-primary col-12 text-center accueil">
+            <h1 class="accueil text-center">Bienvenu sur Corrige Tes Devoirs avec Alfred mus</h1>
+        </header>
+      </div>
+      <div class="row">
+        <div class="col-md-8 p-md-5 p-4  container border bg-secondary col-12 accueil">
+            <p>Si tu as un probleme avec les bases des mathématiques tu es au bon endroit</h2>
+                <p>Notre site a pour but de travailler pour vous quelques problèmes en math et vous les expliquer pour ne plus avoir des problèmes avec ce dernier
+                </p>
+                <p>Pour qu'on puisse bien travailler il faudra à chaque fois respecter les instruction qui vous seront données
+                    tout au long de votre navigation sur le site
+                </p>
+                <p>Tous nos sujet disponible pour le moment sont dans le menu alors vous pouvez choisir ce qui vous interesse</p>
+        </div>
+        <div class="container">
+            <ul class=" bg-dark row ">
+                <li>
+                    <li class="nav-item">
+                      <a class="nav-link active text-white accueil" aria-current="page" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active text-white accueil" aria-current="page" href="#menu">Menu</a>
+                    </li>
+                    <li class="container">
+                      <p class="text-white nav-link accueil">Contact</p>
+                      <p></p>
+                      <ul class="container row">
+                        <li class="col-2 accueil"><a  href="https://www.instagram.com/alfredmushagalusam"><img src="instagram.png" alt="" height="30px"></a></li>
+                        <li class="col-2 accueil"><a  href="mailto:fna.dev.app@gmail.com"><img src="gmail.png" alt="" height="30px"></a></li>
+                        <li class="col-2 accueil"><a  href="https://www.twitter.com/alfred_mus_FCB"><img src="twitter.png" alt="" height="30px"></a></li>
+                      </ul>
+                    </li>
+                </li>
+                <p><br></p>
+                <p class="text-white text-center">copyright &copy 2023 - Alfred mus</p>
+            </ul>
+        </div>
+      </div>
+   <script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+   <script src="bootstrap.js"></script> 
 </body>
 </html>
