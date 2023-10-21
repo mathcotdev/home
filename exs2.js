@@ -56,8 +56,8 @@ else {
 if(a == 0)
 {
     document.getElementById("sex2").remove()
-    const imposible = document.createElement("h1")
-    affimpo = imposible.innerHTML = "<b class='jaune grand bg-white'>Votre équation n'est pas du second degré mais plutôt du premier degré de forme "+b + "x "+ afc+" = 0 Car a = 0 <br>consultez le premier point du menu pour la resolution et l'explication de cette forme<b/>"
+    const imposible = document.createElement("div")
+    affimpo = imposible.innerHTML = "<b class='jaune grand container border bg-white'>Votre équation n'est pas du second degré mais plutôt du premier degré de forme "+b + "x "+ afc+" = 0 Car a = 0 <br>consultez le premier point du menu pour la resolution et l'explication de cette forme<b/>"
     document.getElementById("t").insertAdjacentHTML("afterend", affimpo)
 }
 //les calcul
